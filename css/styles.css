@@ -4,23 +4,94 @@
     font-style: normal;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
-body{
-    display: table;
-    width: 100%;
-    height: 100vh;
-    background: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/11/02/08/georgeboole.jpg?width=1200&auto=webp&quality=75') no-repeat bottom center scroll;
-    background-position: center center;
-    background-size: cover;
-    min-height: 100%;
-    background-attachment: fixed;
-    width: auto;
-    height: auto;
+
+header{
+    padding: 40px 4%;
+    min-height: 100px;
+    text-align: center;
+    font-size: 19px;
+
+    background-image: linear-gradient(to bottom, #B6DFDF, #014b567c);
 }
 
-.bloco{
-    height: 200px;
-    margin: 20px;
-    border: 5px #000000;
+header .menu-desktop{
+    justify-content: space-between;
+    align-items: center;
 }
+
+body{
+    background-color: #014A56;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+header a{
+    color: #F0EADC;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+header nav ul li{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+    transition: .2s;
+
+}
+
+.flex{
+    display: flex;
+}
+
+/*Estilo topo do site*/
+
+section.topo-site{
+    padding: 40px 4%;
+    
+}
+
+section.topo-site .txt-topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+section.topo-site .txt-topo-site h1{
+    color: #d1b084;
+    font-size: 44px;
+    line-height: 40px;
+    padding-right: 5px;
+}
+
+section.topo-site .txt-topo-site p{
+    color: #d1b084;
+    margin: 40px 0px;
+    font-size: 17px;
+    padding-right: 8px;
+}
+
+section.topo-site .txt-topo-site p span{
+    color: #3366CC;
+}
+
+section.topo-site .txt-topo-site p .vermelho{
+    color: #DC4F4F;
+}
+
+
+
