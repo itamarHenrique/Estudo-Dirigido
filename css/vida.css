@@ -10,15 +10,22 @@ section.topo-site .txt-topo-site .flex{
 }
 
 section.topo-site .txt-topo-site h1{
-    color: #d1b084;
+    color: #d1ccc6;
     font-size: 44px;
     line-height: 40px;
-    padding-right: 5px;
+    padding-right: 75px;
+    text-align: justify;
 }
 
 section.topo-site .txt-topo-site p{
-    color: #d1b084;
+    color: #d1ccc6;
     margin: 40px 0px;
     font-size: 17px;
-    padding-right: 8px;
+    padding-top: 15px;
+    padding-right: 150px;
+    text-align: justify;
+}
+
+section.topo-site .img-topo-site img{
+    width: 450px;
 }

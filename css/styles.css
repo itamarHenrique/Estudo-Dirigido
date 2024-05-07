@@ -1,42 +1,30 @@
-* {
+body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    background-color: #062024;
+    height: 100vh;
+    text-align: left;
   }
 
 
 header{
-    padding: 40px 4%;
-    min-height: 100px;
-    text-align: center;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #062024, #11393f);
+    padding: 10px;
     font-size: 19px;
-
-    background-image: linear-gradient(to bottom, #B6DFDF, #014b567c);
-}
-
-header .menu-desktop{
-    justify-content: space-between;
-    align-items: center;
-}
-
-body{
-    background-color: #014A56;
-    height: 100vh;
-}
-
-.interface{
-    max-width: 1280px;
-    margin: 0 auto;
 }
 
 
 header a{
     color: #F0EADC;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -44,14 +32,12 @@ header a{
 header nav ul li{
     display: inline-block;
     align-items: center;
-    justify-content: space-between;
 }
 
 header a:hover{
-    color: #fff;
+    color: #e4bd24;
     transform: scale(1.05);
     transition: .2s;
-
 }
 
 .flex{
@@ -61,28 +47,28 @@ header a:hover{
 /*Estilo topo do site*/
 
 section.topo-site{
-    padding: 40px 4%;
+    margin: 90px 4%;
     
 }
 
-section.topo-site .txt-topo-site .flex{
-    align-items: center;
-    justify-content: center;
+/*section.topo-site .txt-topo-site .flex{
+    justify-content: space-between;
     gap: 90px;
-}
+}*/
 
 section.topo-site .txt-topo-site h1{
-    color: #d1b084;
+    color: #d1ccc6;
     font-size: 44px;
     line-height: 40px;
-    padding-right: 5px;
+    padding-right: 230px;
 }
 
 section.topo-site .txt-topo-site p{
-    color: #d1b084;
-    margin: 40px 0px;
+    color: #d1ccc6;
+    margin: 20px 0px;
     font-size: 17px;
-    padding-right: 8px;
+    padding-right: 250px;
+    text-align: justify;
 }
 
 section.topo-site .txt-topo-site p span{
@@ -93,5 +79,9 @@ section.topo-site .txt-topo-site p .vermelho{
     color: #DC4F4F;
 }
 
+section.topo-site .img-topo-site img{
+    width: 500px;
+    border-radius: 500px;
+}
 
 
