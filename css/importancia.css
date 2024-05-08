@@ -1,140 +1,82 @@
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-    background-color: #062024;
-    height: 100vh;
-    text-align: left;
-
-    
-  }
-
-header{
-    text-align: left;
-    background-image: linear-gradient(to bottom, #062024, #11393f);
-    padding: 10px;
-    font-size: 19px;
-
-  }
-
-header a{
-    color: #F0EADC;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-  }
-
-
-header nav ul li{
-    display: inline-block;
-    align-items: center;
-}
-
-header a:hover{
-    color: #e4bd24;
-    transform: scale(1.05);
-    transition: .2s;
-}
-
-
 .txt-site h1{
-    color: #F0EADC;
+    color: #000000;
     text-align: center;
     font-size: 45px;
 }
 
 .txt-site h2{
-    color: #F0EADC;
+    color: #000000;
     text-align: left;
     font-size: 32px;
     padding-top: 30px;
+
 }
 
 .txt-site h3{
-    color: #F0EADC;
+    color: #000000;
     text-align: left;
     font-size: 28px;
     padding-top: 18px;
 }
 
-.txt-site p{
-    color: #F0EADC;
-    font-size: 20px;
-    text-align: justify;
-}
-
 .lista li{
-    color: #F0EADC;
+    color: #000000;
     font-weight: normal;
     font-size: 20px;
     
 }
 
-/*.imagem-meio{
+.imagem-meio{
     display: block;
     margin: 0 auto;
     height: 430px;
 }
 
-.circuito{
-    display: block;
-    margin: 0 auto;
-    height: 300px;
+.azul{
+    color: #3366CC;
 }
 
-.negrito{
-    font-weight: bolder;
-    padding-left: 13px;
-    padding-top: 7px;
+.txt-site p{
+    color: #000000;
+    margin: 40px 0px;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-right: 150px;
+    text-align: justify;
 }
 
-main p{
-    padding-left: 13px;
-    color: #F0EADC;
+.pequena{
+    width: 450px;
 }
 
-
-ul{
-    color: white;
-}
-
-.vermelha{
-    color: red;
-}
-
-.ou{
-    display: block;
-    margin: 0 auto;
-    height: 350px;
-}
-
-.and{
-    display: block;
-    margin: 0 auto;
-    height: 350px;
-    width: 300px;
-}
-
-.nao{
-    display: block;
-    margin: 0 auto;
+.pequena-ampliada{
+    width: 450px;
     height: 250px;
 }
 
-.resumo{
-    text-align: justify;
-    word-break: break-all;
-    margin-left: 13px;
+.espaco{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
 }
 
-.resum{
-    color: #F0EADC;
-    font-size: 25px;
-    padding-top: 30px;
-    margin-left: 15px;
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
-*/
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}

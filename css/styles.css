@@ -6,25 +6,63 @@ body {
     padding: 0;
     box-sizing: border-box;
 
-    background-color: #062024;
+    background-color: #ebfcf8;
     height: 100vh;
     text-align: left;
   }
 
+nav {
+    max-width: 1920px;
+    max-height: 30px;
+    margin: auto;
+    padding: 1.6rem 8rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    gap: 9rem;
+    width: 100vw;
+    height: 70px;
+    color: #FFFFFF;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.menu li {
+    font-family: "cinzel", sans-serif;
+    font-weight: 700;
+}
+
+.menu li a{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    display: flexbox;
+    align-items: flex-end;
+}
+
+
 
 header{
-    text-align: left;
+    text-align: center;
     background-image: linear-gradient(to bottom, #062024, #11393f);
     padding: 10px;
     font-size: 19px;
 }
 
 
+
 header a{
     color: #F0EADC;
     text-decoration: none;
-    display: flex;
-    justify-content: space-between;
 }
 
 
@@ -44,11 +82,23 @@ header a:hover{
     display: flex;
 }
 
+.menu{
+    display: inline;
+    justify-content: space-between;
+}
+
 /*Estilo topo do site*/
 
 section.topo-site{
     margin: 90px 4%;
     
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
 }
 
 /*section.topo-site .txt-topo-site .flex{
@@ -57,14 +107,14 @@ section.topo-site{
 }*/
 
 section.topo-site .txt-topo-site h1{
-    color: #d1ccc6;
+    color: #000000;
     font-size: 44px;
     line-height: 40px;
     padding-right: 230px;
 }
 
 section.topo-site .txt-topo-site p{
-    color: #d1ccc6;
+    color: #000000;
     margin: 20px 0px;
     font-size: 17px;
     padding-right: 250px;

@@ -1,16 +1,5 @@
-section.topo-site{
-    padding: 40px 4%;
-    
-}
-
-section.topo-site .txt-topo-site .flex{
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-}
-
 section.topo-site .txt-topo-site h1{
-    color: #d1ccc6;
+    color: #000000;
     font-size: 44px;
     line-height: 40px;
     padding-right: 75px;
@@ -18,7 +7,7 @@ section.topo-site .txt-topo-site h1{
 }
 
 section.topo-site .txt-topo-site p{
-    color: #d1ccc6;
+    color: #221f1f;
     margin: 40px 0px;
     font-size: 17px;
     padding-top: 15px;
@@ -28,4 +17,15 @@ section.topo-site .txt-topo-site p{
 
 section.topo-site .img-topo-site img{
     width: 450px;
+    height: 600px;
+}
+
+.img-topo-site{
+    max-height: 600px;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }

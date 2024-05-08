@@ -4,41 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algebra de Boole</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/descoberta.css">
+
 
 </head>
 <body>
 
     <header>
-
         <div class="interface">
 
-            <nav class="menu">
-                <ul>
+            <nav>
+                <ul class="menu">
                     <li>
                         <a href="index.html">Home</a>
                         <a href="vida.html">Sua vida</a>
                         <a href="descoberta.html">Descoberta</a>
                         <a href="importancia.html">Importância nos dias atuais</a>
+
                     </li>
                 </ul>
             </nav>
         </div>
-     </header>
+
+
+    </header>
 
     <main>
-        <section class="topo-site">
+        <section class="topo">
                 <div class="flex">
                     <div class="txt-site">
                         <h1>Algebra de Boole</h1>
                         <p>A álgebra booleana foi desenvolvida pelo matemático inglês George Boole (1815 – 1864) para ser usada em estudos de lógica.
                         Foi apresentada pela primeira vez de forma completa em um trabalho de nome "As Leis do Pensamento”, publicado em 1854. <br>
                         Na álgebra booleana, as constantes e variáveis podem ter apenas dois valores possíveis, 0 ou 1. E esses valores não representam realmente números,
-                        mas o estado do nível de tensão de uma variável, o que chamamos de nível lógico. Então, o estado de um circuito digital pode ser nível lógico 0 ou 1. Como 0 sendo falso e 1 sendo verdadeiro.</p>
-                        <img class="imagem-meio"  src="imagens/450px-George_Boole_color.jpg" alt="Foto George Boole">
+                        mas o estado do nível de tensão de uma variável, o que chamamos de nível lógico. Então, o estado de um circuito digital pode ser nível lógico 0 ou 1. Como 0 sendo falso e 1 sendo verdadeiro.
+                        Essa álgebra se baseia em três operações principais: conjunção (AND), disjunção (OR) e negação (NOT). A partir dessas operações básicas, é possível construir expressões mais complexas e derivar outras operações como NAND (Não AND), NOR (Não OR), XOR (ou exclusivo) e XNOR(Ou não exclusivo).</p>
+                        <img class="imagem-meio"  src="imagens/George Boole em pé.png" alt="Foto George Boole">
                         <p>A Álgebra de Boole consiste em uma ferramenta matemática que nos permite descrever a relação entre as saídas de um circuito lógico e suas entradas por meio do uso de uma equação,
                         também chamada de expressão booleana. Com a álgebra booleana também é possível simplificar a expressão booleana que determina um circuito, de modo que esse circuito possa ser reprojetado de forma mais simples,
-                        possivelmente usando uma quantidade menor de portas lógicas</p>
+                        possivelmente usando uma quantidade menor de portas lógicas.</p>
                         <p>
                         Na Álgebra de Boole, somente dois valores são permitidos: 0 ou 1. Damos o nome de variável booleana a uma quantidade que pode assumir esses valores lógicos, em momentos distintos.
                         </p>
@@ -49,8 +54,9 @@
                         </p>
                         <img class="circuito" src="imagens/circuito-logico-algebra-boole-768x349.png" alt="Circuito Logico algebra de boole">
                         <p>A álgebra de boole se vale de três operações básicas: as operações NOT, OR e AND. Por conta disso,
-                        é considerada mais simples de trabalhar do que com a álgebra convencional, que faz uso de raízes, decimais, números negativos, etc.
+                        é considerada mais simples de trabalhar do que com a álgebra convencional, que faz uso de raízes, decimais, números negativos. <br>
                         </p>
+                        
 
                         <h1>Operação OR (OU)</h1>
                         <p class="negrito">A operação OR é aquela que terá saída verdadeira se pelo menos um dos valores lógico for verdadeira.</p>
@@ -61,12 +67,12 @@
                         <p>
                         Ao fazer a combinação das duas entradas lógicas observamos que:
                         
-                        <ul>
+                        <ul class="ul">
                             Se nem a porta for aberta e nem a contagem acabar a lâmpada <span class="vermelha">não</span> é acessa
                         </ul> 
-                        <ul>Se somente a contagem regressiva acabar;</ul>
-                        <ul>Se somente a porta for aberta a lâmpada é acesa;</ul>
-                        <ul>Se somente a porta for aberta a lâmpada é acesa e a contagem regressiva acabar</ul>
+                        <ul class="ul">Se somente a contagem regressiva acabar;</ul>
+                        <ul class="ul">Se somente a porta for aberta a lâmpada é acesa;</ul>
+                        <ul class="ul">Se somente a porta for aberta a lâmpada é acesa e a contagem regressiva acabar</ul>
                         
                         <img class="ou" src="imagens/ou.png" alt="Porta logica ou">
 
@@ -77,10 +83,10 @@
                         <p class="negrito">A operação AND é aquela que terá saida verdadeira se e somente se os dois valores forem verdadeiros.</p>
                         <p>Para entendermos, vamos imaginar que uma maquina de lavar roupas só opera se apertar um botão e (AND) se a porta estiver fechada.</p>
                         <p>Ao fazermos a combinação das duas entradas lógicas observamos que:
-                            <ul>Se nem o botão for acionado e nem a porta estiver fechada a maquina <span class="vermelha">não</span> vai operar;</ul>
-                            <ul>Se somente o botão for acionado a maquina <span class="negrito">não</span> irá ligar;</ul>
-                            <ul>Se somente a porta estiver fechada <span class="negrito">não</span> irá ligar;</ul>
-                            <ul>Se o botão for acionado e a porta estiver fechada, a maquina irá ligar;</ul> 
+                            <ul class="ul">Se nem o botão for acionado e nem a porta estiver fechada a maquina <span class="vermelha">não</span> vai operar;</ul>
+                            <ul class="ul">Se somente o botão for acionado a maquina <span class="negrito">não</span> irá ligar;</ul>
+                            <ul class="ul">Se somente a porta estiver fechada <span class="negrito">não</span> irá ligar;</ul>
+                            <ul class="ul">Se o botão for acionado e a porta estiver fechada, a maquina irá ligar;</ul> 
 
                             <img class="and" src="imagens/porta_and.png" alt="porta logica and">
                         </p>
@@ -90,26 +96,54 @@
                         <p>Diferente das operações OR e AND, essa operação é realizada sobre uma única entrada. Então, se a variável A invertida, o resultado y pode ser escrito como: <br> Y = A</p>
                         <p>
                             Todas as expressões indicam que o valor lógico de Y é o oposto do valor lógico de A. 
-                            <ul>
+                            <ul class="ul">
                                 Se A for falso, Y é verdadeiro;
                             </ul>
-                            <ul>
+                            <ul class="ul">
                                 Se A for verdadeiro, Y é falso;
                             </ul>
                             <img src="imagens/nao.png" alt="porta logica nao" class="nao">
                         </p>
 
-                        <h2>Um breve resumo das operações</h2>
+                        <h1>Estrutura e Fundamentos</h1>
+
+                        <p class="centro">A Álgebra de Boole é estruturada em torno de um conjunto de axiomas e leis, a lei da associatividade, a lei da comutatividade, a lei do complemento, a lei da distributividade, entre outras.
+                            Essas leis garantem a consistência e a previsibilidade dos resultados das operações booleanas, permitindo a formulação e simplificação de expressões booleanas.
+                        </p>
+
+                        <h1>Lei da distributividade</h1>
+                        <p class="centro">É a lei em que Boole diz que u + v corresponde a divisão de uma classe em duas partes, evidentemente significando que U e V são classes disjuntas.
+                        
+                        </p>
+
+
+                        <h1>Lei da comutatividade</h1>
+                        <p class="centro">A lei comutativa é uma regra matematica que determina que a ordem em que multiplicamos os numeros não irá alterar o produto.</p>
+
+
+                        <h1>Lei do complemento</h1>
+                        <p class="centro">A soma consistindo de um elemento e o seu complemento é equivalente à classe universo. O produto consistindo de um elemento e seu complemento é equivalente à classe nulo. No exemplo abaixo temos uma imagem que ajuda a entender essa lei.</p>
+
+                        <div class="meio">
+                            <img src="imagens/complementação.jpg" alt="">
+                        </div>
+                        <p>Complementação: <br>
+                        a + a' = 1 <br>
+                        a x a' = 0</p>
+
+                        
+                
+<!-- <                        <h2>Um breve resumo das operações</h2>
 
                         <h4 class="resum">Operação OR</h4>
-                        <p class="resumo">A operação OR gera uma saída 1 (verdadeiro) sempre que qualquer uma das duas entradas for 1, independente se ela for a primeira variavel ou segunda variavel. Caso ambas forem 0, a sua saida tambem será 0 (falso).</p>
+                        <p class="resumo">A operação OR gera uma saída 1 (verdadeiro) sempre que qualquer uma das duas entradas for 1, independente se ela for a primeira variavel ou segunda variavel. Caso ambas >forem 0, a sua saida tambem será 0 (falso).</p>
 
 
                         <h4 class="resum">Operação AND</h4>
                         <p class="resumo">A operação AND gera uma saída 1 (verdadeiro) sempre que ambas as variaveis for 1. Caso contrario, sua saída será 0 (falso).</p>
 
                         <h4 class="resum">Operação NOT</h4>
-                        <p class="resumo">A operação NOT gera uma saída com o valor lógico inverso ao da entrada. Se a entrada for o valor lógico 1, a operação irá gerar o valor lógico 0.</p>
+                        <p class="resumo">A operação NOT gera uma saída com o valor lógico inverso ao da entrada. Se a entrada for o valor lógico 1, a operação irá gerar o valor lógico 0.</p> -->
 
                     </div>
                 </div>
