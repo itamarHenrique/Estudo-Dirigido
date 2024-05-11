@@ -3,6 +3,7 @@
     text-align: center;
     font-size: 45px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .txt-site h2{
@@ -11,6 +12,7 @@
     font-size: 35px;
     padding-top: 30px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .txt-site p{
@@ -24,6 +26,7 @@
     margin: 0 auto;
     height: 430px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .circuito{
@@ -31,6 +34,7 @@
     margin: 0 auto;
     height: 300px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .negrito{
@@ -38,23 +42,27 @@
     padding-left: 13px;
     padding-top: 7px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 main p{
     padding-left: 13px;
     color: #000000;
     max-width: 1920px;
+    width: 100vw;
 }
 
 
 .ul{
     color: #000000;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .vermelha{
     color: red;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .ou{
@@ -62,6 +70,7 @@ main p{
     margin: 0 auto;
     height: 350px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .and{
@@ -70,6 +79,7 @@ main p{
     height: 350px;
     width: 300px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .nao{
@@ -77,6 +87,7 @@ main p{
     margin: 0 auto;
     height: 250px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .resumo{
@@ -84,6 +95,7 @@ main p{
     word-break: break-all;
     margin-left: 13px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .resum{
@@ -92,6 +104,7 @@ main p{
     padding-top: 30px;
     margin-left: 15px;
     max-width: 1920px;
+    width: 100vw;
 }
 
 .centro{
@@ -102,11 +115,13 @@ main p{
     display: flex;
     justify-content: center;
     max-width: 1920px;
+    width: 100vw;
 }
 
 section.topo{
     margin: 20px 4%;
     max-width: 1920px;
+    width: 100vw;
     
 }
 
@@ -115,5 +130,6 @@ h1{
     font-weight: 400;
     font-style: normal;
     max-width: 1920px;
+    width: 100vw;
       
 }
