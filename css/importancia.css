@@ -2,7 +2,8 @@
     color: #000000;
     text-align: center;
     font-size: 45px;
-    max-width: 1920px;
+    max-width: 1280px;
+
 }
 
 .txt-site h2{
@@ -10,7 +11,7 @@
     text-align: left;
     font-size: 32px;
     padding-top: 30px;
-    max-width: 1920px;
+    max-width: 1280px;
 
 }
 
@@ -19,14 +20,14 @@
     text-align: left;
     font-size: 28px;
     padding-top: 18px;
-    max-width: 1920px;
+    max-width: 1280px;
 }
 
 .lista li{
     color: #000000;
     font-weight: normal;
     font-size: 20px;
-    max-width: 1920px;
+    max-width: 1280px;
     
 }
 
@@ -35,7 +36,7 @@
     margin: 0 auto;
     height: 430px;
     min-height: 300px;
-    max-width: 1920px;
+    max-width: 1280px;
 }
 
 .azul{
@@ -49,32 +50,32 @@
     padding-top: 15px;
     padding-right: 150px;
     text-align: justify;
-    max-width: 1920px;
+    max-width: 1280px;
 }
 
 .pequena{
     width: 450px;
-    max-width: 1920px;
+    max-width: 1280px;
 }
 
 .pequena-ampliada{
     width: 450px;
     height: 250px;
-    max-width: 1920px;
+    max-width: 1280px;
 }
 
 .espaco{
     display: flex;
     justify-content: space-evenly;
     padding-top: 90px;
-    max-width: 1920px;
+    max-width: 1280px;
 }
 
 h1{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    max-width: 1920px;
+    max-width: 1280px;
       
 }
 
@@ -82,7 +83,7 @@ h2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    max-width: 1920px;
+    max-width: 1280px;
 
 }
 
@@ -90,6 +91,6 @@ h3{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    max-width: 1920px;
+    max-width: 1280px;
 
 }
