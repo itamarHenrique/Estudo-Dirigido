@@ -2,7 +2,7 @@
     color: #000000;
     text-align: center;
     font-size: 45px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .txt-site h2{
@@ -10,58 +10,58 @@
     text-align: center;
     font-size: 35px;
     padding-top: 30px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .txt-site p{
     color: #000000;
     font-size: 17px;
-    max-width: 1280px;
+    max-width: 1920px;
 } 
 
 .imagem-meio{
     display: block;
     margin: 0 auto;
     height: 430px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .circuito{
     display: block;
     margin: 0 auto;
     height: 300px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .negrito{
     font-weight: bolder;
     padding-left: 13px;
     padding-top: 7px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 main p{
     padding-left: 13px;
     color: #000000;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 
 .ul{
     color: #000000;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .vermelha{
     color: red;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .ou{
     display: block;
     margin: 0 auto;
     height: 350px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .and{
@@ -69,21 +69,21 @@ main p{
     margin: 0 auto;
     height: 350px;
     width: 300px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .nao{
     display: block;
     margin: 0 auto;
     height: 250px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .resumo{
     text-align: justify;
     word-break: break-all;
     margin-left: 13px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .resum{
@@ -91,7 +91,7 @@ main p{
     font-size: 25px;
     padding-top: 30px;
     margin-left: 15px;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 .centro{
@@ -101,12 +101,12 @@ main p{
 .meio{
     display: flex;
     justify-content: center;
-    max-width: 1280px;
+    max-width: 1920px;
 }
 
 section.topo{
     margin: 20px 4%;
-    max-width: 1280px;
+    max-width: 1920px;
     
 }
 
@@ -114,6 +114,6 @@ h1{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    max-width: 1280px;
+    max-width: 1920px;
       
 }
