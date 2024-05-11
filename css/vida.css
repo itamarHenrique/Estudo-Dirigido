@@ -1,3 +1,8 @@
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    @viewport { width: 700px; }
+}
+
+
 section.topo-site .txt-topo-site h1{
     color: #000000;
     font-size: 44px;
@@ -13,7 +18,7 @@ section.topo-site .txt-topo-site p{
     font-size: 17px;
     padding-top: 10px;
     /* padding-right: 150px; */
-    text-align: justify;
+    text-align: start;
     max-width: 1920px;
 }
 
