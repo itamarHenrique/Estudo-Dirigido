@@ -30,8 +30,6 @@ section.topo-site .img-topo-site img{
 
 .img-topo-site{
     max-height: 600px;
-
-    
 }
 
 h1{
@@ -53,6 +51,6 @@ h1{
 
 .imagem-meio{
     display: block;
-    margin: 0 auto;
+    margin: auto;
     height: 380px;
 }
