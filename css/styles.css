@@ -23,6 +23,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-width: 320px;
+    max-width: 1920px;
 
 }
 
@@ -69,7 +70,6 @@ header{
     font-size: 19px;
     min-width: 320px;
     max-width: 1920px;
-    width: 100vw;
 }
 
 
@@ -79,7 +79,7 @@ header a{
     text-decoration: none;
     min-width: 320px;
     max-width: 1920px;
-    width: 100vw;
+
 }
 
 
@@ -89,7 +89,7 @@ header nav ul li{
     align-items: center;
     min-width: 320px;
     max-width: 1920px;
-    width: 100vw;
+
 }
 
 header a:hover{
@@ -97,15 +97,15 @@ header a:hover{
     transform: scale(1.05);
     transition: .2s;
     min-width: 320px;
-    max-width: 1920px;
-    width: 100vw;
+
+
 }
 
 .flex{
     display: flex;
     min-width: 320px;
     max-width: 1920px;
-    width: 100vw;
+
 }
 
 .menu{
@@ -113,7 +113,6 @@ header a:hover{
     justify-content: space-between;
     min-width: 320px;
     max-width: 1920px;
-    width: 100vw;
 }
 
 /*Estilo topo do site*/
@@ -121,7 +120,6 @@ header a:hover{
 section.topo-site{
     margin: 90px 4%;
     max-width: 1920px;
-    width: 100vw;
 }
 
 h1{
@@ -129,7 +127,6 @@ h1{
     font-weight: 400;
     font-style: normal;
     max-width: 1920px;
-    width: 100vw;
 }
 
 /*section.topo-site .txt-topo-site .flex{
@@ -144,7 +141,6 @@ section.topo-site .txt-topo-site h1{
     padding-right: 230px;
     min-width: 320px;
     max-width: 1920px;
-    width: 100vw;
 }
 
 section.topo-site .txt-topo-site p{
@@ -155,7 +151,6 @@ section.topo-site .txt-topo-site p{
     text-align: justify;
     min-width: 320px;
     max-width: 1920px;
-    width: 100vw;
 }
 
 section.topo-site .txt-topo-site p span{
@@ -175,7 +170,6 @@ section.topo-site .img-topo-site img{
 main{
     min-width: 320px;
     max-width: 1920px;
-    width: 100vw;
 }
 
 .img-topo-site picture img{
