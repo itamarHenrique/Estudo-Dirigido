@@ -8,12 +8,13 @@
 
 
 section.topo-site .txt-topo-site h1{
-    color: #000000;
+    color: #0a4b0d;
     font-size: 44px;
     line-height: 40px;
     /* padding-right: 75px; */
     text-align: justify;
     max-width: 1920px;
+    font-weight: bold;
 }
 
 section.topo-site .txt-topo-site p{

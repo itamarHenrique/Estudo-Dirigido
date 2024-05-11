@@ -7,14 +7,14 @@
     }
 
 .txt-site h1{
-    color: #000000;
+    color: #0a4b0d;
     text-align: center;
     font-size: 45px;
     max-width: 1920px;
 }
 
 .txt-site h2{
-    color: #000000;
+    color: #0a4b0d;
     text-align: left;
     font-size: 32px;
     padding-top: 30px;
@@ -23,7 +23,7 @@
 }
 
 .txt-site h3{
-    color: #000000;
+    color: #0a4b0d;
     text-align: left;
     font-size: 28px;
     padding-top: 18px;
@@ -83,6 +83,7 @@ h1{
     font-weight: 400;
     font-style: normal;
     max-width: 1920px;
+    font-weight: bold;
       
 }
 
@@ -91,6 +92,7 @@ h2{
     font-weight: 400;
     font-style: normal;
     max-width: 1920px;
+    font-weight: bold;
 
 }
 
@@ -99,5 +101,6 @@ h3{
     font-weight: 400;
     font-style: normal;
     max-width: 1920px;
+    font-weight: bold;
 
 }
