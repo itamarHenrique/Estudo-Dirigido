@@ -2,7 +2,7 @@ section.topo-site .txt-topo-site h1{
     color: #000000;
     font-size: 44px;
     line-height: 40px;
-    padding-right: 75px;
+    /* padding-right: 75px; */
     text-align: justify;
     max-width: 1920px;
 }
@@ -12,7 +12,7 @@ section.topo-site .txt-topo-site p{
     margin: 40px 0px;
     font-size: 17px;
     padding-top: 10px;
-    padding-right: 150px;
+    /* padding-right: 150px; */
     text-align: justify;
     max-width: 1920px;
 }
@@ -20,10 +20,13 @@ section.topo-site .txt-topo-site p{
 section.topo-site .img-topo-site img{
     width: 450px;
     height: 600px;
+    
 }
 
 .img-topo-site{
     max-height: 600px;
+
+    
 }
 
 h1{
@@ -41,4 +44,12 @@ h1{
     padding-top: 35px
 
 
+}
+
+.imagem-meio{
+    display: block;
+    margin: 0 auto;
+    height: 380px;
+    min-height: 300px;
+    max-width: 1920px;
 }
