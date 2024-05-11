@@ -9,6 +9,7 @@ body {
     background-color: #ebfcf8;
     height: 100vh;
     text-align: left;
+    min-width: 750px;
   }
 
 nav {
@@ -21,6 +22,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    min-width: 320px;
+
 
 }
 
@@ -32,11 +35,15 @@ nav {
     color: #FFFFFF;
     margin-top: 60px;
     text-transform: uppercase;
+    min-width: 320px;
+
 }
 
 .menu li {
     font-family: "cinzel", sans-serif;
     font-weight: 700;
+    min-width: 320px;
+
 }
 
 .menu li a{
@@ -47,6 +54,8 @@ nav {
     border-radius: 10px;
     display: flexbox;
     align-items: flex-end;
+    min-width: 320px;
+
 }
 
 
@@ -56,6 +65,8 @@ header{
     background-image: linear-gradient(to bottom, #062024, #11393f);
     padding: 10px;
     font-size: 19px;
+    min-width: 320px;
+
 }
 
 
@@ -63,6 +74,8 @@ header{
 header a{
     color: #F0EADC;
     text-decoration: none;
+    min-width: 320px;
+
 }
 
 
@@ -70,21 +83,29 @@ header a{
 header nav ul li{
     display: inline-block;
     align-items: center;
+    min-width: 320px;
+
 }
 
 header a:hover{
     color: #e4bd24;
     transform: scale(1.05);
     transition: .2s;
+    min-width: 320px;
+
 }
 
 .flex{
     display: flex;
+    min-width: 320px;
+
 }
 
 .menu{
     display: inline;
     justify-content: space-between;
+    min-width: 320px;
+
 }
 
 /*Estilo topo do site*/
@@ -111,6 +132,8 @@ section.topo-site .txt-topo-site h1{
     font-size: 44px;
     line-height: 40px;
     padding-right: 230px;
+    min-width: 320px;
+
 }
 
 section.topo-site .txt-topo-site p{
@@ -119,6 +142,8 @@ section.topo-site .txt-topo-site p{
     font-size: 17px;
     padding-right: 250px;
     text-align: justify;
+    min-width: 320px;
+
 }
 
 section.topo-site .txt-topo-site p span{
@@ -135,3 +160,10 @@ section.topo-site .img-topo-site img{
 }
 
 
+main{
+    min-width: 320px;
+}
+
+.img-topo-site picture img{
+    width: 100%;
+}
