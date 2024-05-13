@@ -104,3 +104,27 @@ h3{
     font-weight: bold;
 
 }
+
+.referencia{
+    height: 200px;
+    max-width: 1920px;
+    background-color: #3e7883;
+    padding-top: 25px;
+}
+
+.branco{
+    color:white;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.centro-branco{
+    text-align: center;
+    color: white;
+
+}
+
+/* .titulo{
+    text-align: center;
+    font-size: 45px;
+} */
